@@ -16,5 +16,7 @@ function calcular(){
 
     console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
     console.log("O Herói de nome" + nome + " está no nível de " + nivel)
+
+    //teste
 }
 
