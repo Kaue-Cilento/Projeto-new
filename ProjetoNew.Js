@@ -1,4 +1,4 @@
-let nome="Danilo_apelao"
+let nome ="Danilo_Apelão"
 let xp= 5000
 let nivel;
 
@@ -40,4 +40,3 @@ function calcular(){
 }
 
 calcular()
-
