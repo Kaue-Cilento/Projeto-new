@@ -3,31 +3,35 @@ let xp= 5000
 let nivel;
 
 function calcular(){
-    if(xp<10){
+    if(xp<1000){
         nivel = "Ferro"
     }
-    else if (xp>=10 && xp<20){
+    else if (xp>1001 && xp<2000){
         nivel = "Bronze"
     }
 
-    else if (xp>=20 && xp<50){
+    else if (xp>2001 && xp<5000){
         nivel = "Prata"
     }
 
-    else if (xp>=50 && xp<80){
+    else if (xp>5001 && xp<7000){
         nivel = "Ouro"
     }
 
-    else if(xp>=80 && xp<90){
-        nivel = "Diamante"
+    else if(xp>7001 && xp<8000){
+        nivel = "Platina"
     }
 
-    else if(xp>=90 && xp<100){
-        nivel = "Lendário"
+    else if(xp>8001 && xp<9000){
+        nivel = "Ascendente"
     }
 
-        else {
+    else if(xp>9001 && xp<10000){
         nivel = "Imortal"
+    }
+
+    else {
+        nivel = "Radiante"
     }
 
     console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
@@ -36,3 +40,4 @@ function calcular(){
 }
 
 calcular()
+
